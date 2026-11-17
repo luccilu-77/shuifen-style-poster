@@ -1,4 +1,4 @@
 interface:
-  display_name: "水粉菜单海报"
-  short_description: "将照片主体制作成强水粉极简菜单海报，并用本地字体准确排版"
-  default_prompt: "根据上传照片制作一张 3:4 强水粉极简菜单海报，保留完整主体并使用本地字体确定性排版。"
+  display_name: "水粉画海报skill"
+  short_description: "将照片主体制作成极简水粉画海报，并用本地字体准确排版"
+  default_prompt: "使用 $gouache-menu-poster，根据上传照片制作一张 3:4 极简水粉画海报，保留完整主体并使用本地字体确定性排版。"
