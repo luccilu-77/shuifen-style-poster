@@ -1,0 +1,159 @@
+{
+  "schema_version": "1.0",
+  "candidate_id": "A01-drink-left-title",
+  "iteration": 0,
+  "canvas": {
+    "width": 1086,
+    "height": 1448,
+    "coordinate_system": "relative-0-1"
+  },
+  "assets": {
+    "background_path": "{{BACKGROUND_PATH}}",
+    "font_path": "{{DISPLAY_FONT_PATH}}"
+  },
+  "intent": {
+    "style": "font-poster",
+    "theme": "紫芋奶油冰饮",
+    "primary_copy": "紫芋雲頂冰飲",
+    "secondary_copy": "芋香綿密 · 奶油輕盈",
+    "mood": [
+      "轻甜",
+      "手作",
+      "清凉"
+    ]
+  },
+  "title_area": {
+    "x": 0.08,
+    "y": 0.04,
+    "w": 0.48,
+    "h": 0.17
+  },
+  "subject_exclusion_zone": {
+    "x": 0.27,
+    "y": 0.225,
+    "w": 0.46,
+    "h": 0.62
+  },
+  "text_blocks": [
+    {
+      "id": "edition",
+      "role": "tag",
+      "text": "SEASONAL DRINK  /  01",
+      "font_path": "{{SUPPORT_FONT_PATH}}",
+      "position": {
+        "x": 0.08,
+        "y": 0.035
+      },
+      "font_size": 0.013121546961325966,
+      "letter_spacing": 0.001,
+      "align": "left",
+      "color": {
+        "hex": "#75666F"
+      }
+    },
+    {
+      "id": "title",
+      "role": "title",
+      "text": "紫芋雲頂\n冰飲",
+      "line_breaks": [
+        "紫芋雲頂",
+        "冰飲"
+      ],
+      "line_spacing": 0.004,
+      "font_path": "{{DISPLAY_FONT_PATH}}",
+      "position": {
+        "x": 0.08,
+        "y": 0.062
+      },
+      "font_size": 0.0531767955801105,
+      "align": "left",
+      "color": {
+        "hex": "#8A5877"
+      }
+    },
+    {
+      "id": "title-en",
+      "role": "caption",
+      "text": "PURPLE TARO CLOUD",
+      "font_path": "{{SUPPORT_FONT_PATH}}",
+      "position": {
+        "x": 0.08,
+        "y": 0.19
+      },
+      "font_size": 0.015193370165745856,
+      "letter_spacing": 0.002,
+      "align": "left",
+      "color": {
+        "hex": "#75666F"
+      }
+    },
+    {
+      "id": "tag-1",
+      "role": "tag",
+      "text": "# 紫芋",
+      "font_path": "{{DISPLAY_FONT_PATH}}",
+      "position": {
+        "x": 0.18,
+        "y": 0.872
+      },
+      "font_size": 0.023480662983425413,
+      "align": "center",
+      "color": {
+        "hex": "#A56381"
+      }
+    },
+    {
+      "id": "tag-2",
+      "role": "tag",
+      "text": "# 雲頂",
+      "font_path": "{{DISPLAY_FONT_PATH}}",
+      "position": {
+        "x": 0.5,
+        "y": 0.872
+      },
+      "font_size": 0.023480662983425413,
+      "align": "center",
+      "color": {
+        "hex": "#A56381"
+      }
+    },
+    {
+      "id": "tag-3",
+      "role": "tag",
+      "text": "# 珍珠",
+      "font_path": "{{DISPLAY_FONT_PATH}}",
+      "position": {
+        "x": 0.82,
+        "y": 0.872
+      },
+      "font_size": 0.023480662983425413,
+      "align": "center",
+      "color": {
+        "hex": "#A56381"
+      }
+    },
+    {
+      "id": "caption",
+      "role": "caption",
+      "text": "细腻紫芋融入轻盈奶香，绵密云顶点亮清甜一杯。",
+      "font_path": "{{SUPPORT_FONT_PATH}}",
+      "position": {
+        "x": 0.5,
+        "y": 0.925
+      },
+      "font_size": 0.019337016574585635,
+      "align": "center",
+      "color": {
+        "hex": "#725F67"
+      }
+    }
+  ],
+  "constraints": {
+    "local_font_only": true,
+    "no_ai_redraw": true,
+    "no_glyph_deformation": true,
+    "max_iterations": 3,
+    "pass_threshold": 82
+  },
+  "notes_for_reviewer": "已认可的布局模板。实例化时替换背景路径、两种字体路径、文案和配色；按实际背景轮廓重新确认禁入区。保留紧凑分组，侧注默认关闭。"
+}

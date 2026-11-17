@@ -1,5 +1,7 @@
 # 水粉风格海报
 
+[下载完整 Skill ZIP](https://github.com/luccilu-77/shuifen-style-poster/releases/download/v1.0.0/shuifen-style-poster.zip) · 含字体、脚本、参考图与示例。也可直接浏览下方说明和仓库中的展开文件。
+
 把一张普通商品照片，变成带有纸张质感、手绘水粉插画和清晰文字的极简海报。
 
 上传照片，告诉它商品名或想表达的主题，就能制作一张适合新品介绍、门店展示或社交分享的竖版海报。不需要提前抠图，也不需要自己设计版式。

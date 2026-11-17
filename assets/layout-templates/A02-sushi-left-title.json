@@ -1,0 +1,146 @@
+{
+  "schema_version": "1.0",
+  "candidate_id": "A02-sushi-left-title",
+  "iteration": 0,
+  "canvas": {
+    "width": 1086,
+    "height": 1448,
+    "coordinate_system": "relative-0-1"
+  },
+  "assets": {
+    "background_path": "{{BACKGROUND_PATH}}",
+    "font_path": "{{DISPLAY_FONT_PATH}}"
+  },
+  "intent": {
+    "style": "font-poster",
+    "theme": "炙烧三文鱼握寿司",
+    "primary_copy": "炙燒鮭魚握壽司",
+    "secondary_copy": "焦香炙烤 · 鮮嫩豐腴",
+    "mood": [
+      "炙烤",
+      "鲜味",
+      "日式",
+      "编辑感"
+    ]
+  },
+  "title_area": {
+    "x": 0.08,
+    "y": 0.04,
+    "w": 0.62,
+    "h": 0.19
+  },
+  "subject_exclusion_zone": {
+    "x": 0.04,
+    "y": 0.255,
+    "w": 0.92,
+    "h": 0.56
+  },
+  "text_blocks": [
+    {
+      "id": "edition",
+      "role": "tag",
+      "text": "TORCHED SUSHI  /  01",
+      "font_path": "{{SUPPORT_FONT_PATH}}",
+      "position": {
+        "x": 0.08,
+        "y": 0.035
+      },
+      "font_size": 0.013121546961325966,
+      "letter_spacing": 0.001,
+      "align": "left",
+      "color": {
+        "hex": "#76594A"
+      }
+    },
+    {
+      "id": "title",
+      "role": "title",
+      "text": "炙燒鮭魚\n握壽司",
+      "line_breaks": [
+        "炙燒鮭魚",
+        "握壽司"
+      ],
+      "line_spacing": 0.003,
+      "font_path": "{{DISPLAY_FONT_PATH}}",
+      "position": {
+        "x": 0.08,
+        "y": 0.06
+      },
+      "font_size": 0.057320441988950276,
+      "align": "left",
+      "color": {
+        "hex": "#A5482C"
+      }
+    },
+    {
+      "id": "title-en",
+      "role": "caption",
+      "text": "TORCHED SALMON NIGIRI",
+      "font_path": "{{SUPPORT_FONT_PATH}}",
+      "position": {
+        "x": 0.08,
+        "y": 0.195
+      },
+      "font_size": 0.015193370165745856,
+      "letter_spacing": 0.002,
+      "align": "left",
+      "color": {
+        "hex": "#76594A"
+      }
+    },
+    {
+      "id": "tag",
+      "role": "tag",
+      "text": "現點現炙",
+      "font_path": "{{DISPLAY_FONT_PATH}}",
+      "position": {
+        "x": 0.08,
+        "y": 0.86
+      },
+      "font_size": 0.031077348066298343,
+      "align": "left",
+      "color": {
+        "hex": "#B85B35"
+      }
+    },
+    {
+      "id": "caption",
+      "role": "caption",
+      "text": "火炙焦香包裹柔嫩鲑鱼，酱香与米饭在口中交叠。",
+      "font_path": "{{SUPPORT_FONT_PATH}}",
+      "position": {
+        "x": 0.08,
+        "y": 0.915
+      },
+      "font_size": 0.019337016574585635,
+      "align": "left",
+      "color": {
+        "hex": "#6F584C"
+      }
+    },
+    {
+      "id": "footer-en",
+      "role": "caption",
+      "text": "SEARED  /  SAVORY  /  TENDER",
+      "font_path": "{{SUPPORT_FONT_PATH}}",
+      "position": {
+        "x": 0.92,
+        "y": 0.952
+      },
+      "font_size": 0.013121546961325966,
+      "letter_spacing": 0.001,
+      "align": "right",
+      "color": {
+        "hex": "#76594A"
+      }
+    }
+  ],
+  "constraints": {
+    "local_font_only": true,
+    "no_ai_redraw": true,
+    "no_glyph_deformation": true,
+    "max_iterations": 3,
+    "pass_threshold": 82
+  },
+  "notes_for_reviewer": "已认可的布局模板。实例化时替换背景路径、两种字体路径、文案和配色；按实际背景轮廓重新确认禁入区。保留紧凑分组，侧注默认关闭。"
+}

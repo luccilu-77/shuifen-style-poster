@@ -1,0 +1,433 @@
+{
+  "version": "1.0",
+  "coordinate_system": "relative-0-1",
+  "reference_canvas": {
+    "width": 1086,
+    "height": 1448
+  },
+  "parameter_status": "Starting values adapted from supplied raster references, not measured original point sizes.",
+  "fonts": {
+    "display": "字魂自言自画体",
+    "support": "字魂阅宋"
+  },
+  "defaults": {
+    "main_groups": [
+      1,
+      2
+    ],
+    "main_axes": [
+      1,
+      2
+    ],
+    "auxiliary_components": [
+      0,
+      2
+    ],
+    "side_annotations_enabled": false,
+    "safe_margin_x": [
+      0.06,
+      0.1
+    ],
+    "safe_margin_y_min": 0.03,
+    "title_to_english_ink_gap_ratio": [
+      0.18,
+      0.3
+    ],
+    "title_line_ink_gap_ratio": [
+      0.15,
+      0.3
+    ],
+    "minimum_subject_ink_clearance_h": 0.01
+  },
+  "approved_profiles": [
+    {
+      "id": "A01",
+      "name": "奶茶左上标题与底部标签",
+      "source_layout": "../assets/layout-templates/A01-drink-left-title.json",
+      "font_px": {
+        "title": 77,
+        "english": 22,
+        "tag": 34,
+        "body": 28,
+        "micro": 19
+      },
+      "components": [
+        "top-left-two-line-title",
+        "adjacent-english",
+        "bottom-three-column-tags",
+        "bottom-caption"
+      ],
+      "disabled_components": [
+        "side-left",
+        "side-right"
+      ],
+      "mode": "preserve-approved-layout"
+    },
+    {
+      "id": "A02",
+      "name": "寿司左上标题与底部说明",
+      "source_layout": "../assets/layout-templates/A02-sushi-left-title.json",
+      "font_px": {
+        "title": 83,
+        "english": 22,
+        "tag": 45,
+        "body": 28,
+        "micro": 19
+      },
+      "components": [
+        "top-left-two-line-title",
+        "adjacent-english",
+        "bottom-left-tag-caption",
+        "bottom-right-english"
+      ],
+      "disabled_components": [
+        "side-note"
+      ],
+      "mode": "preserve-approved-layout"
+    }
+  ],
+  "templates": [
+    {
+      "id": "T01",
+      "name": "居中双语标题",
+      "references": [
+        "R01"
+      ],
+      "title_region": {
+        "x": 0.22,
+        "y": 0.17,
+        "w": 0.56,
+        "h": 0.19
+      },
+      "title": {
+        "align": "center",
+        "direction": "horizontal",
+        "font_px": [
+          86,
+          104
+        ],
+        "lines": [
+          1,
+          2
+        ]
+      },
+      "english": {
+        "placement": "above-title",
+        "font_px": [
+          22,
+          26
+        ]
+      },
+      "support": {
+        "kind": "two-line-selling-point",
+        "align": "center",
+        "font_px": [
+          28,
+          34
+        ]
+      },
+      "optional_components": [
+        "single-corner-category"
+      ],
+      "fit": "broad upper-center negative space, lower subject"
+    },
+    {
+      "id": "T02",
+      "name": "右上竖向词组",
+      "references": [
+        "R02",
+        "R06"
+      ],
+      "title_region": {
+        "x": 0.65,
+        "y": 0.09,
+        "w": 0.26,
+        "h": 0.25
+      },
+      "title": {
+        "align": "left",
+        "direction": "vertical",
+        "columns": 2,
+        "font_px": [
+          82,
+          102
+        ],
+        "ink_column_gap_ratio": [
+          0.2,
+          0.35
+        ]
+      },
+      "english": {
+        "placement": "below-short-column",
+        "font_px": [
+          20,
+          24
+        ]
+      },
+      "optional_components": [
+        "bottom-three-column-information"
+      ],
+      "fit": "deep upper-right negative space, central or left subject"
+    },
+    {
+      "id": "T03",
+      "name": "两行方阵标题",
+      "references": [
+        "R03",
+        "R08"
+      ],
+      "title_region": {
+        "x": 0.36,
+        "y": 0.12,
+        "w": 0.28,
+        "h": 0.18
+      },
+      "title": {
+        "align": "center",
+        "direction": "horizontal",
+        "font_px": [
+          90,
+          116
+        ],
+        "lines": 2,
+        "preferred_characters_per_line": 2
+      },
+      "support": {
+        "kind": "horizontal-short-subtitle",
+        "align": "center",
+        "font_px": [
+          34,
+          44
+        ],
+        "tracking_em": [
+          0.08,
+          0.16
+        ]
+      },
+      "english": {
+        "placement": "adjacent-to-corresponding-copy",
+        "font_px": [
+          20,
+          24
+        ]
+      },
+      "optional_components": [
+        "ingredient-pair"
+      ],
+      "fit": "narrow but tall negative space above product"
+    },
+    {
+      "id": "T04",
+      "name": "单字领题",
+      "references": [
+        "R04"
+      ],
+      "title_region": {
+        "x": 0.33,
+        "y": 0.06,
+        "w": 0.34,
+        "h": 0.17
+      },
+      "title": {
+        "align": "center",
+        "direction": "horizontal",
+        "font_px": [
+          160,
+          240
+        ],
+        "character_count": 1
+      },
+      "product_name": {
+        "align": "center",
+        "font_px": [
+          64,
+          86
+        ],
+        "placement": "below-feature-character"
+      },
+      "english": {
+        "placement": "between-feature-and-product-name",
+        "font_px": [
+          24,
+          30
+        ]
+      },
+      "optional_components": [
+        "bottom-three-column-selling-points"
+      ],
+      "fit": "large upper negative space and a meaningful single-character hook"
+    },
+    {
+      "id": "T05",
+      "name": "左侧信息组",
+      "references": [
+        "R05"
+      ],
+      "title_region": {
+        "x": 0.09,
+        "y": 0.12,
+        "w": 0.6,
+        "h": 0.15
+      },
+      "title": {
+        "align": "left",
+        "direction": "horizontal",
+        "font_px": [
+          82,
+          104
+        ],
+        "lines": 2
+      },
+      "support": {
+        "kind": "stacked-semantic-sections",
+        "align": "left",
+        "font_px": [
+          36,
+          44
+        ],
+        "section_gap_ratio": [
+          0.7,
+          1
+        ]
+      },
+      "body": {
+        "font_px": [
+          26,
+          32
+        ]
+      },
+      "optional_components": [
+        "verified-event-details"
+      ],
+      "fit": "continuous upper-left and middle-left negative space"
+    },
+    {
+      "id": "T06",
+      "name": "中部细长竖题",
+      "references": [
+        "R07"
+      ],
+      "title_region": {
+        "x": 0.44,
+        "y": 0.08,
+        "w": 0.19,
+        "h": 0.26
+      },
+      "title": {
+        "align": "left",
+        "direction": "vertical",
+        "font_px": [
+          88,
+          108
+        ],
+        "max_characters_per_column": 6
+      },
+      "support": {
+        "kind": "adjacent-secondary-column",
+        "font_px": [
+          34,
+          44
+        ],
+        "ink_column_gap_ratio": [
+          0.25,
+          0.4
+        ]
+      },
+      "optional_components": [],
+      "fit": "continuous vertical negative space above tall product"
+    },
+    {
+      "id": "T07",
+      "name": "右侧长竖题",
+      "references": [
+        "R09"
+      ],
+      "title_region": {
+        "x": 0.74,
+        "y": 0.09,
+        "w": 0.17,
+        "h": 0.36
+      },
+      "title": {
+        "align": "left",
+        "direction": "vertical",
+        "font_px": [
+          88,
+          112
+        ],
+        "character_count": [
+          4,
+          6
+        ]
+      },
+      "support": {
+        "kind": "nearby-category",
+        "font_px": [
+          32,
+          42
+        ]
+      },
+      "optional_components": [
+        "verified-numeric-parameter"
+      ],
+      "fit": "continuous right-side negative space, product weighted to left"
+    },
+    {
+      "id": "T08",
+      "name": "中上错列词组",
+      "references": [
+        "R10"
+      ],
+      "title_region": {
+        "x": 0.4,
+        "y": 0.07,
+        "w": 0.27,
+        "h": 0.28
+      },
+      "title": {
+        "direction": "controlled-word-columns",
+        "font_px": [
+          88,
+          116
+        ],
+        "semantic_segment_count": [
+          2,
+          4
+        ],
+        "segment_offset_in_ink_height": [
+          0.4,
+          0.7
+        ],
+        "minimum_column_gap_in_ink_height": 0.18
+      },
+      "english": {
+        "placement": "adjacent-to-corresponding-segment",
+        "font_px": [
+          20,
+          26
+        ]
+      },
+      "support": {
+        "kind": "parenthetical-short-phrase",
+        "font_px": [
+          32,
+          40
+        ]
+      },
+      "optional_components": [],
+      "fit": "irregular upper negative space that accommodates semantic word columns"
+    }
+  ],
+  "reference_assets": {
+    "R01": "../assets/layout-references/R01-center-bilingual.png",
+    "R02": "../assets/layout-references/R02-right-vertical.png",
+    "R03": "../assets/layout-references/R03-square-title.png",
+    "R04": "../assets/layout-references/R04-large-character.png",
+    "R05": "../assets/layout-references/R05-left-information.png",
+    "R06": "../assets/layout-references/R06-right-title-footer-grid.png",
+    "R07": "../assets/layout-references/R07-central-vertical.png",
+    "R08": "../assets/layout-references/R08-square-with-notes.png",
+    "R09": "../assets/layout-references/R09-right-long-title.png",
+    "R10": "../assets/layout-references/R10-staggered-title.png"
+  }
+}
